@@ -1,0 +1,5 @@
+{
+    "shodan_api_key": "your-shodan-api-key",
+    "censys_api_id": "your-censys-api-id",
+    "censys_secret": "your-censys-secret"
+}

@@ -1,0 +1,15 @@
+# example_target.txt
+
+# This file provides examples and tips for using the Automated Reconnaissance Tool.
+
+# Example Target Domain:
+example.com
+
+# Example Target IP Address:
+192.168.1.1
+
+# Usage Tips:
+# - You can specify domains or IP addresses for scanning.
+# - Each entry should be on a new line if specifying multiple targets.
+# - Use the --ports option to control which ports are scanned.
+# - If you want to scan a specific subdomain, include it explicitly, e.g., sub.example.com

@@ -1,0 +1,5 @@
+requests
+dnspython
+shodan
+censys
+python-nmap
