@@ -25,7 +25,8 @@ This tool automates the reconnaissance phase of penetration testing by performin
 
 4. **Configure API Keys**:
    ```
-   pip install -r requirements.txt
+   Add your API keys to config/api_keys.json.
+
    ```
 
 ## Usage
