@@ -49,6 +49,9 @@ API Key Management:
 Loads API keys from a config/api_keys.json file.
 Subdomain Enumeration:
 
+Subdomain Enumeration:
+Uses dnspython to perform DNS resolution and find subdomains. Subdomains are specified in the subdomains.txt file.
+
 Uses dnspython to perform DNS resolution and find subdomains.
 Port Scanning:
 
