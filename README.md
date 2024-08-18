@@ -45,27 +45,18 @@ python recon_tool.py --target example.com --output report.txt
 
 
 API Key Management:
-
 Loads API keys from a config/api_keys.json file.
 Subdomain Enumeration:
-
-Subdomain Enumeration:
 Uses dnspython to perform DNS resolution and find subdomains. Subdomains are specified in the subdomains.txt file.
-
-Uses dnspython to perform DNS resolution and find subdomains.
 Port Scanning:
-
-Integrates with nmap using the python-nmap library to scan for open ports based on the selected port range.
+Integrates with Nmap using the python-nmap library to scan for open ports based on the selected port range.
 Vulnerability Detection:
-
 Uses the Shodan API to check for known vulnerabilities associated with the target’s IP address.
 Port Range Options:
-
 common: Scans ports 1-1024.
-extended: Scans ports 1-12000.
+extended: Scans ports 1-5000.
 all: Scans all ports 0-65535.
 custom: Allows specifying a custom range or list of ports.
-
 
 ## Examples
 
@@ -88,3 +79,8 @@ Scan Custom Ports:
 ```
 python recon_tool.py --target example.com --ports custom --custom-ports 80,443,8080
 ```
+
+
+# Notes
+The subdomains.txt file is required for the tool to function correctly. This file should list all the domains and subdomains that you want to include in the reconnaissance.
+The --output option is currently not implemented but can be added for saving the results to a file.
