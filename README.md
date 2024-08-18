@@ -31,7 +31,7 @@ This tool automates the reconnaissance phase of penetration testing by performin
 ## Usage
 
 ```
-python recon_tool.py --target example.com --output report.txt
+python recon_tool.py --output report.txt
 ```
 
 ## Features
