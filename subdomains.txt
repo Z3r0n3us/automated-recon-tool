@@ -1,2 +1,4 @@
 example.com
-yoursubdomain.com
+www.example.com
+api.example.com
+example.org
