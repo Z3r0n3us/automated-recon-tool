@@ -62,7 +62,7 @@ custom: Allows specifying a custom range or list of ports.
 
 Scan Common Ports (1-1024):
 ```
-python recon_tool.py --target example.com --ports common
+python recon_tool.py --ports common
 ```
 
 Scan Extended Ports (1-12000):
