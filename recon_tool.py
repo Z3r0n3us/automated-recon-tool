@@ -7,7 +7,7 @@ import shodan
 def parse_args():
     parser = argparse.ArgumentParser(description="Automated Reconnaissance Tool")
     parser.add_argument('--ports', type=str, choices=['common', 'extended', 'all', 'custom'], default='common',
-                        help="Port range to scan: 'common' (1-1024), 'extended' (1-5000), 'all' (0-65535), 'custom' (specify custom range)")
+                        help="Port range to scan: 'common' (1-1024), 'extended' (1-12000), 'all' (0-65535), 'custom' (specify custom range)")
     parser.add_argument('--custom-ports', type=str, help="Custom port range (e.g., 80,443,8080) if --ports is set to 'custom'")
     parser.add_argument('--output', type=str, help="Output file for results")
     return parser.parse_args()
@@ -34,7 +34,7 @@ def get_port_range(ports_option, custom_ports=None):
     if ports_option == 'common':
         return '1-1024'
     elif ports_option == 'extended':
-        return '1-5000'
+        return '1-12000'
     elif ports_option == 'all':
         return '0-65535'
     elif ports_option == 'custom' and custom_ports:
