@@ -67,17 +67,17 @@ python recon_tool.py --target example.com --ports common
 
 Scan Extended Ports (1-12000):
 ```
-python recon_tool.py --target example.com --ports extended
+python recon_tool.py --ports extended
 ```
 
 Scan All Ports (0-65535):
 ```
-python recon_tool.py --target example.com --ports all
+python recon_tool.py --ports all
 ```
 
 Scan Custom Ports:
 ```
-python recon_tool.py --target example.com --ports custom --custom-ports 80,443,8080
+python recon_tool.py --ports custom --custom-ports 80,443,8080
 ```
 
 
