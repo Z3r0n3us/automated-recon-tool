@@ -26,7 +26,6 @@ This tool automates the reconnaissance phase of penetration testing by performin
 4. **Configure API Keys**:
    ```
    Add your API keys to config/api_keys.json.
-
    ```
 
 ## Usage
