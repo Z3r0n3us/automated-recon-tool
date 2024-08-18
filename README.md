@@ -54,7 +54,7 @@ Vulnerability Detection:
 Uses the Shodan API to check for known vulnerabilities associated with the target’s IP address.
 Port Range Options:
 common: Scans ports 1-1024.
-extended: Scans ports 1-5000.
+extended: Scans ports 1-12000.
 all: Scans all ports 0-65535.
 custom: Allows specifying a custom range or list of ports.
 
